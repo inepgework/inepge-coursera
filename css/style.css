@@ -1,0 +1,79 @@
+:root {
+  --primary: #046ce3ec;
+  --bg: #fffdfd;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+}
+
+/* Navbar */
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-style: italic;
+  background-color: #00a6ff;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  position: relative;
+}
+
+.hero .content h1 {
+  font-size: 2em;
+  color: #000000;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+}
+
+.hero .content h1 span {
+  color: #0051ff;
+}
+
+.hero .content p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1pc 3px rgba(1, 1, 3, 0.5);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 0.1rem 0 1rem;
+  margin-top: 3rem;
+}
+
+footer .credit {
+  font-size: 1rem;
+}
